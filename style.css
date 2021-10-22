@@ -1,0 +1,95 @@
+:root {
+    --black: hsl(240, 6%, 13%);
+    --gray: hsl(240, 9%, 89%);
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+main {
+    background: url('images/background.svg');
+    height: 812px;
+    width: 375px;
+}
+
+.container {
+    color: var(--gray);
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+}
+
+.container>a img {
+    margin-right: .75rem;
+}
+
+.avatar {
+    margin: 11.5rem auto 0;
+    position: relative;
+    width: 10rem;
+}
+
+.avatar span {
+    position: absolute;
+    top: -15px;
+    z-index: 1;
+}
+
+.avatar>img {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    filter: grayscale(1) brightness(0.75) contrast(150%);
+    height: 11.5rem;
+    /* faz com que a imagem se adapte dentro do espaço disponível */
+    object-fit: cover;
+    -webkit-filter: grayscale(1) brightness(0.75) contrast(150%);
+    width: 10rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+a {
+    align-items: center;
+    color: var(--gray);
+    display: flex;
+    justify-content: center;
+    margin-top: .25rem;
+    text-decoration: none;
+}
+
+p {
+    margin-top: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 4rem;
+}
+
+@media screen and (min-width:376px) {
+    /* main {
+        height: 540px;
+        width: 358px;
+    } */
+}
