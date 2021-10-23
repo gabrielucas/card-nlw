@@ -13,7 +13,7 @@
 - https://gabrielucas.github.io/card-nlw/
 
 ## Desktop Version 
-<img src="/images/card-nlw-desk.png" alt="Desktop Version" width="600" style="margin: 0 auto;"/>
+<img src="/images/card-nlw-desk.png" alt="Desktop Version" width="600"/>
 
 ## Mobile Version
-<img src="/images/card-nlw-mobile.png" alt="Mobile Version" width="300" style="margin: 0 auto;"/>
+<img src="/images/card-nlw-mobile.png" alt="Mobile Version" width="300"/>
