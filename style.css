@@ -56,7 +56,7 @@ main {
 }
 
 img[src="images/build.svg"] {
-    animation: spin 4000ms;
+    animation: rotate 4000ms;
 }
 
 .avatar>img {
@@ -131,6 +131,8 @@ ul {
     .range-dark {
         animation: fade 900ms 450ms backwards;
         background: var(--black);
+        border: 1px solid var(--black);
+        border-radius: .125rem;
         height: 8px;
         margin: 0 auto;
         position: relative;
@@ -144,6 +146,10 @@ ul {
         max-width: 358px;
         position: relative;
         top: -1rem;
+    }
+    .container.shake {
+        /* animation: shake 2s 50ms ease-in-out forwards; */
+        animation: shake 2s 50ms ease-in-out forwards, fade paused;
     }
     .avatar {
         margin: 0 auto;
@@ -209,11 +215,26 @@ ul {
     }
 }
 
-@keyframes spin {
+@keyframes rotate {
     from {
-        transform: rotate(0deg);
+        transform: rotate(0);
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+    70% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(0);
     }
 }
