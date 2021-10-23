@@ -194,7 +194,7 @@ ul {
         transform: translateY(-20%);
     }
     35% {
-        transform: translateY(0)
+        transform: translateY(.5%)
     }
     70% {
         transform: translateY(-5%);
