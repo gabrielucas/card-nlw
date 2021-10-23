@@ -32,7 +32,7 @@ const getInfoProfile = () => {
             username.textContent = dataJSON.name
             description.textContent = dataJSON.bio
             document.getElementById('url').href = dataJSON.html_url
-                // photo.src = dataJSON.avatar_url
+            photo.src = dataJSON.avatar_url
             login.textContent = dataJSON.login
         })
 
