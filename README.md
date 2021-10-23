@@ -12,4 +12,8 @@
 
 - https://gabrielucas.github.io/card-nlw/
 
+## Desktop Version
+<img src="/images/card-nlw-desk.svg" width="200"/>
 
+## Mobile Version
+<img src="/images/card-nlw-mobile.svg" width="200"/>
