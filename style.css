@@ -148,8 +148,7 @@ ul {
         top: -1rem;
     }
     .container.shake {
-        /* animation: shake 2s 50ms ease-in-out forwards; */
-        animation: shake 2s 50ms ease-in-out forwards, fade paused;
+        animation: shake 2s 50ms ease-in-out backwards, fade paused;
     }
     .avatar {
         margin: 0 auto;

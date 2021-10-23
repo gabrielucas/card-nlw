@@ -3,7 +3,7 @@ const linksSocialMedia = {
     youtube: 'channel/UCVgGMVUJwHFKtuK9WSYwzig',
     facebook: 'gabrielviana28',
     instagram: 'lucas.gabl',
-    twitter: ''
+    twitter: 'lucgabl'
 }
 
 const changeSocialMediaLinks = () => {
