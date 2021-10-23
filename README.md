@@ -4,9 +4,9 @@
 
 ## Technologies used:
 
-- HTML ![HTML](/images/html.png)
-- CSSm ![CSS](/images/css.png)
-- Javascript ![JS](/images/js.png)
+- HTML <img src="/images/html.png" width="20"/>
+- CSSm <img src="/images/css.png" width="20"/>
+- Javascript <img src="/images/js.png" width="20"/>
 
 ## Link to access: 
 
