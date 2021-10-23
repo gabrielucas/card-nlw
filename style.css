@@ -55,6 +55,10 @@ main {
     z-index: 1;
 }
 
+img[src="images/build.svg"] {
+    animation: spin 4000ms;
+}
+
 .avatar>img {
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     filter: grayscale(1) brightness(0.75) contrast(150%);
@@ -201,5 +205,14 @@ ul {
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
