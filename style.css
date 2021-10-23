@@ -60,6 +60,7 @@ img[src="images/build.svg"] {
 }
 
 .avatar>img {
+    animation: fade 500ms 500ms backwards;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     filter: grayscale(1) brightness(0.75) contrast(150%);
     height: 11.5rem;
